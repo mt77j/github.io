@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0;
+    /*　追加*/
+    margin: 0;
+    /*　追加*/
+    height: 100%;
+}
+
+
+
+
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    font-size:0.9rem;
+    margin-top: 34px;
+    
+}
+
+.main-nav li{
+    margin-left: 36px;
+}
+
+/*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
+@media (min-width: 576px) {
+    
+    
+    
+}
+
+
+
+/*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
+@media (min-width: 576px) {}
