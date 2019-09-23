@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-image: url(p0074_l.jpg);
+    background-image: url(/karuta/css/p0074_l.jpg);
 }
 
 
@@ -25,7 +25,7 @@ body {
 .page-header {
     display: flex;
     justify-content: flex-end;
-    background-image: url(p0074_l.jpg);
+    background-image: url(karuta/css/p0074_l.jpg);
     postion: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -142,7 +142,7 @@ body {
 
 
     #home {
-        background-image: url(bg-pc.jpg);
+        background-image: url(karuta/css/bg-pc.jpg);
         /* 背景画像指定 */
         min-height: 90vh;
         /* 画像のサイズ指定 */
@@ -164,7 +164,7 @@ body {
 @media (max-width: 575px) {
 
     #home {
-        background-image: url(bg-phone.jpg);
+        background-image: url(karuta/css/bg-phone.jpg);
         /* 背景画像指定 */
         min-height: 90vh;
         /* 画像のサイズ指定 */
