@@ -52,6 +52,17 @@ body {
 }
 
 
+h1{
+   text-align: center;
+    font-size:2.3rem;
+    margin: 40px 0;
+    color: #671116;
+}
+
+p{
+    text-align: center;
+}
+
 
 /*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
 @media (min-width: 576px) {
