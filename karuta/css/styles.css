@@ -11,30 +11,75 @@ html {
     height: 100%;
 }
 
-
-
-
-
-.main-nav{
-    display: flex;
-    list-style: none;
-    font-size:0.9rem;
-    margin-top: 34px;
-    
+body {
+    background-image: url(bg-kami.jpg);
 }
 
-.main-nav li{
-    margin-left: 36px;
+
+body {
+    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+
+
+.page-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cv-btn a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.cv-btn {
+    font-size: 1.3rem;
+    padding: 20px 40px;
+    background: #671116;
+}
+
+.inquiry{
+    margin-right: 30px;
 }
 
 /*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
 @media (min-width: 576px) {
-    
-    
-    
+
+
+    #home {
+        background-image: url(bg-2.jpg);
+        /* 背景画像指定 */
+        min-height: 90vh;
+        /* 画像のサイズ指定 */
+    }
+
+
+    .big-bg {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+
 }
 
 
+/*画面幅が575px以下（スマホ）に適用したいスタイル*/
+@media (max-width: 575px) {
 
-/*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
-@media (min-width: 576px) {}
+    #home {
+        background-image: url(bg-2.jpg);
+        /* 背景画像指定 */
+        min-height: 90vh;
+        /* 画像のサイズ指定 */
+    }
+
+
+    .big-bg {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+    }
