@@ -168,9 +168,8 @@ color:#bc9a71;
     }
 
     /* open */
-    .open .scroll {
+    .open  {
     overflow: hidden;
-     display:none;
         
     }
 
