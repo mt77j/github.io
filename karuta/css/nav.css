@@ -16,10 +16,17 @@
         text-decoration: none;
         color: #611116;
     }
-}
-
+     
 .main-nav :hover{
 color:#bc9a71;
+}
+    
+      .language{
+    margin-right: 30px;
+}  
+    
+    
+    
 }
 
 @media (max-width: 575px) {
