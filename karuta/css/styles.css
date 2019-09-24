@@ -12,7 +12,8 @@ html {
 }
 
 body {
-    background-image: url(/karuta/css/p0074_l.jpg);
+    background-image: url(/karuta/images/p0074_l.jpg);
+    color: #671116;
 }
 
 
@@ -23,41 +24,127 @@ body {
 
 
 .page-header {
-    display: flex;
     justify-content: flex-end;
-    background-image: url(/karuta/css/p0074_l.jpg);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background: url(/karuta/images/p0074_l.jpg);
+
 }
 
 
-.cv-btn a{
-     text-decoration: none;
+.cv-btn a {
+    text-decoration: none;
+    font-weight: bold;
     color: #FFFF;
     font-size: 1.3rem;
     background: #671116;
     padding: 20px 40px;
-    display: block;　
+    display: block;
 }
 
-.cv-btn  a:hover {
+.cv-btn a:hover {
     background: #d6b281;
-    color: #671116;
-    
+    color: #FFFF;
+
 }
 
-
-
-h1{
-   text-align: center;
-    font-size:2.3rem;
-    margin: 40px 0;
-    color: #671116;
-}
-
-p{
+h1 {
     text-align: center;
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+h2,
+h3,
+.ame2,
+footer p {
+    text-align: center;
+}
+
+.ame {
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.date1,
+.date2,
+.date3 {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #d6b281;
+}
+
+.date2,
+.date3 {
+    margin: 15px;
+}
+
+
+.recruitment {
+
+    background: #611116;
+    color: #fff;
+    margin-top: 60px;
+    padding: 20px;
+
+}
+
+.border1 {
+    text-decoration: underline wavy #fff;
+}
+
+.cv-btn2 {
+    background: #fff;
+    margin: 0 80px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.cv-btn2 a {
+    text-decoration: none;
+    color: #611116;
+    display: block;
+    padding: 20px 0;
+}
+
+.kome img {
+    width: 300px;
+    float: left;
+}
+
+.kome {
+    margin-top: 70px;
+
+}
+
+.kome h4 {
+    font-size: 1.3rem;
+}
+
+.border2 {
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: #d6b281;
+}
+
+.access {
+    background: #d6b281;
+    margin-top: 50px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+iframe {
+    width: 100%;
+    display: flex;
+}
+
+footer {
+    background: #d6b281;
+    padding-top:30px
+        
+
 }
 
 
@@ -66,7 +153,7 @@ p{
 
 
     #home {
-        background-image: url(/karuta/css/bg-pc.jpg);
+        background-image: url(/karuta/images/bg-pc.jpg);
         /* 背景画像指定 */
         min-height: 90vh;
         /* 画像のサイズ指定 */
@@ -75,10 +162,31 @@ p{
 
     .big-bg {
         background-size: cover;
-        background-position: center;
+        background-position: center 70px;
         background-repeat: no-repeat;
     }
 
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .kome {
+        overflow: hidden;
+    }
+
+    .kome h4 {
+        margin-left: 350px;
+        margin-bottom: 0px;
+    }
+
+    .kome p {
+        margin-left: 350px;
+    }
 
 
 }
@@ -88,19 +196,65 @@ p{
 @media (max-width: 575px) {
 
     #home {
-        background-image: url(/karuta/css/bg-phone.jpg);
+        background-image: url(/karuta/images/bg-phone.jpg);
         /* 背景画像指定 */
         min-height: 90vh;
         /* 画像のサイズ指定 */
+
     }
 
 
     .big-bg {
         background-size: cover;
-        background-position: center;
+        background-position: center 60px;
         background-repeat: no-repeat;
+    }
+
+    main {
+        margin: 0 10px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p,.ame {
+        font-size: 0.8rem;
+    }
 
 
+    .cv-btn2 {
+        margin: 10px;
     }
+
+    .kome {
+        margin-top: 40px;
     }
+
+    .kome h4 {
+        font-size: 1rem;
+        margin-bottom: 0px;
+        margin-left: 200px;
+    }
+
+    .kome h4 br {
+        display: none;
+    }
+
+    .kome img {
+        width: 190px;
+        height: auto;
+    }
+
+    .kome p {
+        margin-left: 200px;
+    }
+
+
+
+}
     
