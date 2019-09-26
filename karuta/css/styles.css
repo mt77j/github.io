@@ -29,7 +29,7 @@ body {
     position: fixed;
     width: 100%;
     background: url(/karuta/css/p0074_l.jpg);
-
+    top: 0;
 }
 
 
@@ -142,10 +142,22 @@ iframe {
 
 footer {
     background: #d6b281;
-    padding-top:30px
-        
+    padding-top:30px;
+   padding-bottom: 50px;     
 
 }
+
+/*お問い合わせページ*/
+
+.tarms{
+    padding-bottom: 50px;
+    padding-top: 80px
+}
+
+.tarms-list li{
+    padding-bottom: 20px;
+}
+
 
 
 /*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
