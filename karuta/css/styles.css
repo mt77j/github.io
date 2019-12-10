@@ -147,6 +147,17 @@ footer {
 
 }
 
+.daruma{
+float:right;
+    margin:0 10px;
+}
+
+.daruma img{
+    width: 50px;
+}
+
+
+
 /*お問い合わせページ*/
 
 .tarms{
